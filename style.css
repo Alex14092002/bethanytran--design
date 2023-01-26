@@ -116,7 +116,8 @@ a {
     margin: 0;
 }
 .text-content span{
-    font-size: 40px;
+    font-size: 65px;
+    line-height: 65px;
 }
 .content-main{
     margin: 0px;
@@ -180,7 +181,9 @@ a {
 .text-about{
   align-items: center;
   font-size: 30px;
-  font-weight: bold;
+  line-height: 30px;
+  text-align: justify;
+  padding-right: 35px;
 }
 .content-about{
   margin: 0;
@@ -200,20 +203,53 @@ a {
   margin: 0px;
   padding-bottom: 20px;
 }
-.content-item p{
+.hidden{
+  padding-right: 0px;
+  text-align: end;
+}
+.content-item{
+  padding-left: 0px;
+  text-align: justify;
+  padding-right: 35px;
+}
+.content-item p , .hidden p{ 
   font-size: 18px;
-  font-weight: 600;
+ 
 }
 .img-item{
   padding-top: 20px;
   padding-bottom: 20px;
 }
+.hidden p{
+  font-size: 25px;
+}
+.t{
+  padding-right: 27px;
+}
+.r{
+  display: none;
+}
 @media(max-width:600px){
+  .r{
+    display: block;
+  }
+  .t{
+    padding-right: 0px;
+  }
   .pr{
     padding-left: 12px;
   }
     .hidden{
+      padding-right: 12px;
         display: none   
+        
+    }
+    .content-item{
+      padding-left:12px;
+      padding-right: 12px;
+    }
+    .text-about{
+      padding-right: 12px;
     }
     .end{
       text-align: start;
