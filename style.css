@@ -35,7 +35,7 @@ a {
     .nav-items {
      display: inline-block;
      
-     padding: 10px;
+    
     }
     
     .nav-links {
@@ -44,6 +44,9 @@ a {
     font-weight: 600;
     margin-right: 15px;
     text-transform: uppercase;
+    }
+    .nav-items li:nth-child(3) {
+      margin-right: 0 !important;
     }
     
     .ham-button {
