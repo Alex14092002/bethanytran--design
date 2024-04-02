@@ -180,6 +180,9 @@ a {
 
  
 }
+.uppercase {
+  text-transform: uppercase;
+}
 .text-about{
   align-items: center;
   font-size: 30px;
